@@ -21,6 +21,5 @@ telegraph==2.2.0
 Pillow==9.4.0
 qrcode
 
-
 # 🎥 External Git Repo
 git+https://github.com/Joelkb/cinemagoer
