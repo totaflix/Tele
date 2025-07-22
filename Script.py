@@ -292,6 +292,7 @@ To Get Sticker ID
 ✭ ʜᴇʀᴇ ɪs ᴘᴜʙʟɪᴄ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ᴀɴᴅ ɪɴsᴛʀᴜᴄᴛɪᴏɴs — ᴛᴀᴘ ʙᴇʟᴏᴡ ᴏʀ <a href="https://github.com/pykinsu/tele-filter-bot">ʜᴇʀᴇ</a> ᴛᴏ sᴇᴇ.
 </b>
 """
+
     
     RULE_TXT = """<b>
 ♨️ 𝗚𝗥𝗢𝗨𝗣 𝗥𝗨𝗟𝗘𝗦 ♨️</b><br><br>
