@@ -3,8 +3,7 @@ class script(object):
      START_TXT = """<b>
 Hello {},<br>
 My name is <a href="https://t.me/{}">{}</a>. I can provide movies – just add me to your group as an admin and enjoy! 😍<br>
-<blockquote>Maintained by <a href="https://t.me/kissuxbots">@kissuxbots</a></blockquote>
-</b>"""
+<blockquote>Maintained by <a href="https://t.me/kissuxbots">@kissuxbots</a></blockquote></b>"""
 
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
