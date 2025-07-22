@@ -26,7 +26,7 @@
 ---
 
 ## Deploy On Koyeb
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?name=tele-filter-bot&repository=pyKinsu%2FTele-Filter-Bot&branch=main&instance_type=free&instances_min=0&autoscaling_sleep_idle_delay=300&env%5BADMINS%5D=&env%5BAPI_HASH%5D=&env%5BAPI_ID%5D=&env%5BBOT_TOKEN%5D=&env%5BDATABASE_URL%5D=&env%5BLOG_CHANNEL%5D=)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?name=tele-filter-bot&repository=pyKinsu%2FTele-Filter-Bot&branch=main&instance_type=free&instances_min=0&autoscaling_sleep_idle_delay=300&env%5BADMINS%5D=&env%5BAPI_HASH%5D=&env%5BAPI_ID%5D=&env%5BBOT_TOKEN%5D=&env%5BDATABASE_URI%5D=&env%5BLOG_CHANNEL%5D=)
 
 ---
 
