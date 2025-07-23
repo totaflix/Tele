@@ -1,4 +1,4 @@
-# Please Star This Repository and Follow Me
+# Please [Star](https://github.com/pykinsu/tele-filter-bot/) This Repository and [Follow Me](https://github.com/pykinsu/)
 
 ## check bot [sanya movies bot](https://t.me/sanyamoviesbot/)
 
