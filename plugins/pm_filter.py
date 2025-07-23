@@ -1288,20 +1288,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer(text=script.SINFO, show_alert=True)
 
     elif query.data == "start":
-        buttons = [
-    [
+        buttons = [[
         InlineKeyboardButton(
             "➕ Add Me To Your Group ➕",
             url=f"https://t.me/{temp.U_NAME}?startgroup=true")
-    ],
-    [
+    ],[
         InlineKeyboardButton("🔍 Search", url=REQ_GRP),
         InlineKeyboardButton("📌 Updates", url="https://t.me/kissuxbots")
-    ],
-    [
+    ],[
         InlineKeyboardButton("💡 Help", callback_data="help"),
         InlineKeyboardButton("📰 About", callback_data="about")
-    ] ]
+    ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
             query.message.chat.id, 
