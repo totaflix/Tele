@@ -1292,8 +1292,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     [
         InlineKeyboardButton(
             "➕ Add Me To Your Group ➕",
-            url=f"https://t.me/{temp.U_NAME}?startgroup=true"
-        )
+            url=f"https://t.me/{temp.U_NAME}?startgroup=true")
     ],
     [
         InlineKeyboardButton("🔍 Search", url=REQ_GRP),
@@ -1302,7 +1301,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     [
         InlineKeyboardButton("💡 Help", callback_data="help"),
         InlineKeyboardButton("📰 About", callback_data="about")
-    ]
+    ] ]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
             query.message.chat.id, 
