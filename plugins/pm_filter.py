@@ -1298,7 +1298,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
     ],[
         InlineKeyboardButton("💡 Help", callback_data="help"),
         InlineKeyboardButton("📰 About", callback_data="about")
-    ]]
+    ],[
+        InlineKeyboardButton(" Make Your Own Bot", url="https://GitHub.com/pykinsu/tele-filter-bot/")
+        ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
             query.message.chat.id, 
