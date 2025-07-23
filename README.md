@@ -1,6 +1,6 @@
 # Please Star This Repository and Follow Me
 
-## Variables
+## check bot [sanya movies bot](https://t.me/sanyamoviesbot/)
 
 ### Required Variables
 * `BOT_TOKEN`: Create a bot using [@BotFather](https://telegram.dog/BotFather), and get the Telegram API token.
