@@ -49,6 +49,8 @@ async def start(client, message):
             ],[      
             InlineKeyboardButton("Hᴇʟᴩ 💡", callback_data="help"),
             InlineKeyboardButton("Aʙᴏᴜᴛ 📰", callback_data="about")
+        ],[
+        InlineKeyboardButton(" Make Your Own Bot", url="https://GitHub.com/pykinsu/tele-filter-bot/")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)   
         m=await message.reply_sticker("CAACAgQAAxkBAAEOHdZn2piuieMXbUOL_7I2Iqb9ArF19QACKwoAArAqAVIMufqlVovwXzYE") 
@@ -100,6 +102,8 @@ async def start(client, message):
             ],[      
             InlineKeyboardButton("Hᴇʟᴩ 💡", callback_data="help"),
             InlineKeyboardButton("Aʙᴏᴜᴛ 📰", callback_data="about")
+        ],[
+        InlineKeyboardButton(" Make Your Own Bot", url="https://GitHub.com/pykinsu/tele-filter-bot/")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)      
         await message.reply_photo(
