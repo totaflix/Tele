@@ -17,9 +17,9 @@ def is_enabled(value, default):
 
 # ─── Bot Info ───────────────────────────────────────────
 SESSION = environ.get('SESSION', 'Tele_Filter')
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
-BOT_TOKEN = environ.get('BOT_TOKEN', "")
+API_ID = int(environ.get('API_ID', '25194442'))
+API_HASH = environ.get('API_HASH', '9e93d41112872cc3bd58f4e29fd82c0a')
+BOT_TOKEN = environ.get('BOT_TOKEN', "8277114039:AAE-ag6JQgP_IDMFT3GqUJ9RKGZQ2K0EaVg")
 
 
 # ─── Bot Settings ───────────────────────────────────────
@@ -39,8 +39,8 @@ VRFY_IMG = environ.get("VRFY_IMG", "https://envs.sh/R3N.jpg")
 
 
 # ─── Admins / Users / Channels ──────────────────────────
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7651377821').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002947271067').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '0').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '').split()]
@@ -58,7 +58,7 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 
 # ─── MongoDB ─────────────────────────────────────────────
-DATABASE_URI = environ.get('DATABASE_URI', "")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://suproboiragi2:t4GwmmrWCkUcX3Ui@cluster0.nn4hh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telefilter')
 
@@ -84,7 +84,7 @@ MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : 𓆩•�
 
 
 # ─── Display Configurations ─────────────────────────────
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ""))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', "-1002947271067"))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'kissuhelp')
 
 P_TTI_SHOW_OFF = is_enabled(environ.get('P_TTI_SHOW_OFF', "True"), True)
@@ -103,7 +103,7 @@ SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
-FILE_STORE_CHANNEL = [int(ch) for ch in environ.get('FILE_STORE_CHANNEL', '').split()]
+FILE_STORE_CHANNEL = [int(ch) for ch in environ.get('FILE_STORE_CHANNEL', '-1002947271067').split()]
 MELCOW_NEW_USERS = is_enabled(environ.get('MELCOW_NEW_USERS', "False"), True)
 PROTECT_CONTENT = is_enabled(environ.get('PROTECT_CONTENT', "False"), False)
 PUBLIC_FILE_STORE = is_enabled(environ.get('PUBLIC_FILE_STORE', "True"), True)
